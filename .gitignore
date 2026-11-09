@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Results/output (keep folder structure, ignore binary outputs for clean repo)
+results/*.png
+results/*.csv
+results/validation_metrics.json
+
+# Scratch/test files
+validate.py
+test_cloud_app.py
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit local cache
+.streamlit/secrets.toml
